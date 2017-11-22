@@ -1,12 +1,5 @@
 /*
   Fetches employee-supervisor information via WebDEV.
-
-  Usage: set the environment variables before running:
-
-  WEBDAV_USER
-  WEBDAV_PASSWORD
-  WEBDAV_URL
-  WEBDAV_PATH
 */
 
 import { Connection, BasicAuthenticator } from "webdav-client";
